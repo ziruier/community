@@ -12,7 +12,7 @@ description:
 - Taichi 发布 v1.2.0 版本
 - Taichi 中文论坛改版，体验升级，欢迎访问新域名解锁更多优质内容：forum.taichi-lang.cn
 - Issue Triage Meeting Notes 上线，我们会每周跟进来自社区的问题并将 issue 的状态更新在 [GitHub Wiki](http://github.com/taichi-dev/taichi/wiki/Issue-Triage-Meeting-Notes)
-中，也欢迎社区同学的参与.
+中，也欢迎社区同学的参与
 - 社区成员在全球会议分享基于 Taichi 的科研成果，将在十一月的全国颗粒大会、日本第七届高品质先进材料界面表征与控制国际会议与大家见面
 
 ##  ⚙️ 技术动态
