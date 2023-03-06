@@ -19,7 +19,7 @@ description:
 
 - 八月发布的 v1.1.0 版本增加了令人期待的新功能，如量化数据类型和离线缓存。
 - 随后发布的补充版本对一些报错信息进行改进，让大家的体验更顺滑。
-- 近期 Taichi 更新至 v1.1.3 版本，部分功能做了一些微调，包括在 C-API 中加入了新的纹理接口（#5520）、修复了存储浮点数的 codegen 中的错误类型转换（#5818）。
+- 近期 Taichi 更新至 v1.1.3 版本，部分功能做了一些微调，包括在 C-API 中加入了新的纹理接口（[#5520](https://github.com/taichi-dev/taichi/pull/5520)）、修复了存储浮点数的 codegen 中的错误类型转换（[#5818](https://github.com/taichi-dev/taichi/pull/5818)）。
 
 赶快升级体验新功能吧 👉 `pip install taichi==1.1.3`
 
@@ -75,7 +75,7 @@ DEM 是非常有趣的算法，稍加修改就能做出各种效果。欢迎大�
 
 ![](https://user-images.githubusercontent.com/124654014/219299529-5d42d133-f9e6-43bc-a14c-3987355b819a.jpg)
 
-**⭐️ Taichi 论坛完成改版升级！**
+**⭐️ [Taichi 论坛](https://forum.taichi-lang.cn/)完成改版升级！**
 
 论坛互动体验大大优化，新增资料库和快捷链接便于大家寻找学习资料。欢迎小伙伴们在论坛发帖、分享经验、参与活动～我们也将持续维护论坛，欢迎持续关注！
 
