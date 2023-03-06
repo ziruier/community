@@ -85,11 +85,11 @@ DEM 是非常有趣的算法，稍加修改就能做出各种效果。欢迎大�
 
 @Hanke98 
 
-Support basic sparse matrix operations on GPU (#6082)
+Support basic sparse matrix operations on GPU [#6082](https://github.com/taichi-dev/taichi/pull/6082)
 
 @lucifer1004
 
-Change deprecated make_camera() to Camera() (#6009)
+Change deprecated make_camera() to Camera() [#6009](https://github.com/taichi-dev/taichi/pull/6009)
 
 ## 🧑‍💻 如何成为 Taichi 贡献者
 
