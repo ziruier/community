@@ -67,8 +67,6 @@ description:
 
 **👨‍🏫 社区成员在全球会议分享基于 Taichi 的科研成果**
 
-中国建筑科学研究院彭镝将于 11 月 27 日上午 9:10 在全国颗粒大会第一分会场颗粒计算上分享「使用 Taichi 语言实现离散单元法高性能计算」。欢迎感兴趣的朋友前去围观！
-
 Cranfield 大学教授 Liang Yang 和社区成员 Jianhui Yang 将在日本召开的第七届高品质先进材料界面表征与控制国际会议中演讲使用 Taichi 实现的 GPU 加速多相流和单流体方程中颗粒与固体相互作用的求解。
 
 ## 📝 贡献者力量
@@ -77,7 +75,7 @@ Cranfield 大学教授 Liang Yang 和社区成员 Jianhui Yang 将在日本召�
 
 @bismarckkk:
 
-Add example "laplace equation" (#6302)
+Add example "laplace equation"  [#6302](https://github.com/taichi-dev/taichi/pull/6302)
 
 ## 🧑‍💻 如何成为 Taichi 贡献者
 
