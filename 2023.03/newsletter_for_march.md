@@ -1,57 +1,45 @@
----
-title: "Taichi 三月社区月报"
-date: "2023-04-01"
-description:
-  📌 三月高光时刻\Taichi v1.5 发布\Taichi NeRF 项目大公开\Taichi Discord 现已启用
----
+# Taichi Newsletter for March
 
-# Taichi 2023 年 3 月社区月报
+ISSUE 11 - April 10, 2023
 
-## 📌三月高光时刻
+Another month of exploring the fascinating world of Taichi. With an array of exciting new features, Demos, and blogs, we invite you to join us for the latest update of Taichi!
 
-- Taichi v1.5 发布，Taichi 运行时（TiRT）目前已支持 MAC 的 Metal API 和 OpenGL ES。
+## 📌Highlights
 
-- Taichi NeRF 项目大公开，快来训练属于你的 3D 模型！
+- [Taichi NeRF](https://github.com/taichi-dev/taichi-nerfs) is released. Train your own 3D world!
 
-- Taichi Discord 现已启用，欢迎加入和全球开发者一起共建 [Taichi 社区](http://discord.com/invite/f25GRdXRfg)
+- [Taichi v1.5.0](https://github.com/taichi-dev/taichi/releases/tag/v1.5.0): Taichi Runtime (TiRT) now supports Apple's Metal API and OpenGL ES for compatibility on old mobile platforms. 
 
-##  ⚙️ 技术动态
+##  ⚙️ Releases & Development
 
-**Taichi v1.5.0 发布！看看有哪些重要更新：**
+**Taichi v1.5.0 is available! See what's new:**
 
-- Taichi 运行时（TiRT）目前已支持 MAC 的 Metal API 和 OpenGL ES，以便兼容旧的移动平台。
-- Taichi AOT 完全支持 float16 数据类型。
-- ndarrays 现在支持越界检查。
-- Python 前端：基于 LLVM 的后端（CPU 和 CUDA）现在支持返回结构体，包括包含向量和矩阵的嵌套结构体。
-- CUDA 后端对半精度浮点数类型 half2 的原子操作进行了优化。
-- GGUI 后端已支持 Metal、OpenGL、AMDGPU、DirectX 11、CPU 和 CUDA。
+- Taichi Runtime (TiRT) now supports Apple's Metal API and OpenGL ES for compatibility on old mobile platforms.
+- Taichi AOT fully supports float16 dtype.
+- Out-of-bound checks are now supported on ndarrays.
+- Python Frontend: LLVM-based backends (CPU and CUDA) now support returning structs, including nested structs containing vectors and matrices.
+- The atomic operations for half2 data type (used for half-precision floating-point numbers) have been optimized in CUDA backend.
+- Metal, OpenGL, AMDGPU, DirectX 11, CPU, and CUDA are supported on GGUI backend.
 
-赶快升级体验新功能吧 👉 `pip install -U taichi==1.5.0`.
+Hurry up and experience the new features 👉 `pip install -U taichi==1.5.0`.
 
-本月合并 193 个 PR，解决 37 个 issue。
+193 PRs have been merged and 37 issues resolved this month.👏
 
-## 🌟 社区精选作品
+## 🌟 Featured Repos & Projects
 
-- **Ti example 投稿：[可与鼠标交互 2D 欧拉流体模拟](http://github.com/Lee-abcde/2DEulerianFluidSolver/tree/main)。**
-
-这是作者 Lee-abcde 使用 Taichi 完成的 2D 欧拉流体求解器，仅用 300 行代码便完成以下功能：
-水面能够与鼠标进行交互
-添加旋度运算达到更好的流体表现
-支持切换流体的背景图片（访问 GitHub 在 img 目录下可以找到图片）
+This is a [2D Eulerian fluid solver implemented](http://github.com/Lee-abcde/2DEulerianFluidSolver/tree/main) using the Taichi programming language, which achieves advanced functionality with a implementation of only 300 lines of code. Specifically, this solver enables interactive manipulation of the water surface through mouse interactions, as well as enhanced fluid dynamics through the addition of vorticity calculations. Additionally, this solver supports the flexibility to switch the fluid’s background image, with the images located in the designated img directory.
 
 ![](https://user-images.githubusercontent.com/124654014/231320221-db5038ea-6e18-4f9e-98e3-801d0eae21e0.gif)
 
-- **使用 Taichi 内置可调参数实现 SPH [光滑粒子流体动力学](https://github.com/sillsill777/SPH-Fluid-Simulation)**
-
-这个项目基于 SPH_Taichi。作者 sillsill777 使用 SPH 形式数值解流体方程，该方程控制流体的运动。并进一步考虑控制流体运动的几个影响因素，如粘度和表面张力，以及处理流体-刚体耦合的问题。
+[This project](https://github.com/sillsill777/SPH-Fluid-Simulation) is based on SPH Taichi. In this project with the SPH formalism, [sillsill777](https://github.com/sillsill777) will numerically solve fluid equations which govern the movement of fluid flow. Furthermore, they will consider several effects governing fluid motion such as viscosity and surface tension. The author will also handle the issue of Fluid-Rigid coupling.
 
 ![](https://user-images.githubusercontent.com/124654014/231322232-21962c8e-40fa-4c20-ab83-0b0c37de75e6.gif)
 
-粘度设置为 0.5
+High Viscosity case with viscosity set to 0.5
 
 ![](https://user-images.githubusercontent.com/124654014/231322239-e9494f74-0943-492a-8f25-63f12f9a60f3.gif)
 
-双流体块案例
+Two fluid block setting
 
 - **[使用 Taichi NeRF 进行三维重建](https://mp.weixin.qq.com/s/524hkvbkGzryKNyq9brhpg)**
 
