@@ -1,6 +1,6 @@
 ---
 title: "Taichi Newsletter for November"
-date: "2022-12-09"
+date: "2023-04-01"
 description:
   📌 Highlights\Taichi NeRF is released\Taichi v1.5.0：Taichi Runtime (TiRT) now supports Apple's Metal API and OpenGL ES for compatibility on old mobile platforms
 ---
